@@ -1,0 +1,83 @@
+.navbar{
+    background-color:#e3f2fd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-scroll-style{
+    background-color:white;
+    border-bottom: 1px solid #000;
+    transition: 0.3s all;
+}
+
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#jumbotron{
+    background-color:#e3f2fd;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+@media (min-width: 1200px) { 
+    .image{
+        background-image: url("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhY2slMjBvZiUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+        background-position: right center;
+        background-size: cover;
+    }
+ }
+
+ .i{
+     font-size: 10rem;
+ }
+
+ .i1{
+     color: #16a085;
+ }
+
+ .i2{
+    color: #e74c3c;
+}
+
+.i3{
+    color: #9b59b6;
+}
+
+#carousel{
+    background-color: #34495e;
+}
+
+#carousel .carousel-item{
+    height: 400px;
+}
+
+#ceny .card-header{
+    font-size: 1.5rem;
+}
+
+#ceny .card-header#best{
+    font-size: 1.8rem;
+}
+
+[data-toggle="collapse"]{
+    cursor: pointer;
+} 
+
+#footerList a{
+    color: #929292;
+}
+
+#footerList h4{
+    padding-bottom: 0,5rem;
+}
+
+#footerList{
+    line-height: 2rem;
+}
+
+#footer{
+    background-color: #e3f2fd;
+}
